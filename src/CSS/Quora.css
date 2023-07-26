@@ -1,0 +1,20 @@
+.quora__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    .quora__content {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center the items vertically */
+    }
+}
+
+/* Responsive styles for screens smaller than 576px */
+@media screen and (max-width: 575px) {
+    .quora__content {
+        margin-top: 30px; /* Adjust the top margin for smaller screens */
+    }
+}

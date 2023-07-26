@@ -1,0 +1,15 @@
+
+.sidebar {
+    margin-right: 10px;
+    flex: 0.2;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 900px) {
+    .sidebar {
+       display: none;
+    }
+}
+
+/* Responsive styles for screens smaller than 576px */
+
