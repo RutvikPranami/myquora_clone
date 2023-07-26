@@ -12,9 +12,6 @@ function Login() {
 
   const signIn = () => {
     window.alert("Please sign in using  Email and Password");
-    auth.signInWithPopup(provider).catch((e) => {
-      alert(e.message);
-    });
   };
 
   const fbSign = () => {
